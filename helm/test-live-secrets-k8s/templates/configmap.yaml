@@ -8,3 +8,6 @@ data:
   test-live-secrets-k8s.yaml: |-
     test-live-secrets-k8s:
       test-configmap-property: {{ .Values.secrets.someSecret }}
+  test-live-secrets-k8s.properties: |-
+    message=from cm default
+    threshold=100

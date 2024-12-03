@@ -12,6 +12,10 @@ spring:
         enabled: true
         enable-api: true
         name: test-live-secrets-k8s-secrets
+      reload:
+        enabled: true
+        mode: event
+        strategy: refresh
 
 management:
   endpoints:
